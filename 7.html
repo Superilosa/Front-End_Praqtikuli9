@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="7.css">
+    <script src="7.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>ფოტოებიანი ცხრილის შექმნა</h2>
+        <div class="form">
+            <label for="col">სვეტების რაოდენობა:</label>
+            <input type="number" min="1" id="col">
+            <br>
+            <label for="row">სტრიქონების რაოდენობა:</label>
+            <input type="number" min="1" id="row">
+            <br>
+            <label for="img">ფოტოების რაოდენობა:</label>
+            <input type="number" min="0" id="img">
+            <br>
+            <button onClick="checkForm()">ცხრილის გენერირება</button>
+        </div>
+    </div>
+    <div id="table-output"></div>
+</body>
+</html>

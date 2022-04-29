@@ -1,0 +1,66 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+h2{
+    color: rgb(139, 101, 7);
+    text-align: center;
+}
+.form{
+    background-color: gainsboro;
+    width: 370px;
+    padding: 30px;
+    height: 168px;
+    margin: 0 auto;
+}
+label{
+    color: rgb(195, 148, 29);
+    float: left;
+    margin-bottom: 15px;
+    height: 28px;
+}
+input{
+    float: right;
+    margin-bottom: 15px;
+    height: 28px;
+    box-sizing: border-box;
+    border-color: darkgoldenrod;
+    border-style: solid;
+    border-radius: 6px;
+    text-align: right;
+    -moz-appearance: textfield;
+    padding-right: 10px;
+    width: 140px;
+}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+button{
+    float: right;
+    height: 30px;
+    box-sizing: border-box;
+    border-color: green;
+    border-style: solid;
+    border-radius: 6px;
+    color: darkgreen;
+    margin-top: 20px;
+}
+table{
+    border:rgb(139, 101, 7) 2px solid;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+td{
+    border:rgb(139, 101, 7) 2px solid;
+    width: 100px;
+    height: 100px;
+}
+#table-output img{
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+}
+#table-output{
+    margin-top: 45px;
+}
